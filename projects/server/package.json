@@ -1,0 +1,25 @@
+{
+  "name": "template_express_server",
+  "version": "0.0.1",
+  "description": "This is a template express server with dependency injection",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/server.ts",
+    "dev": "nodemon",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "Johan Bouduin",
+  "license": "UNLICENSED",
+  "repository": "secret",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "nodemon": "^1.18.10"
+  }
+}

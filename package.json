@@ -1,6 +1,6 @@
 {
-  "name": "satisfaction",
-  "version": "0.0.0",
+  "name": "template_angular_with_proxy",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
