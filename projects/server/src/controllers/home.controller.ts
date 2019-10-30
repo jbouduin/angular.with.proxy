@@ -9,6 +9,6 @@ export interface IHomeController {
 @injectable()
 export class HomeController implements IHomeController {
   HelloWorld(_request: Request, response: Response): void {
-    response.send({Message: 'Hello world'});
+    response.send({message: 'Hello world'});
   }
 }
