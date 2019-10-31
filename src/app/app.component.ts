@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements AfterViewInit{
-  title = 'sample app';
+  title = 'Template';
   greeting: string;
 
   ngAfterViewInit(): void {
